@@ -1,0 +1,31 @@
+{
+  "name": "UpTaskManager",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "NODE, MERN"
+  ],
+  "author": "Ulloa Silva",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "handlebars": "^4.7.8",
+    "nodemon": "^3.0.2"
+  }
+}
